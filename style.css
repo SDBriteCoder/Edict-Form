@@ -4,40 +4,41 @@ body{
     font-family: roboto;
 }
 h1{
-    margin-right: 400px;
-    background-color: tomato;
-    height: 50px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    text-align:center;
+    margin-right: 30%;
+    background-color: rgb(247, 133, 113);
+    height: 90%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
     margin-top: 0px;
-    padding: 9px;
+    padding: 2.5%;
+    font-size: 300%;
 }
 div{
-    margin-left: 50px;
+    margin-left: 4%;
 }
 input , select{
-    border-color: tomato;
-    width: 200%;
-    height: 50%;
+    border-color: rgb(248, 148, 131);
+    width: 110%;
+    height: 100%;
     border-radius: 5px;
     background-color: #1F1D2B;
     color: white;
+    font-size: 110%;
 }
 textarea{
-    border-color: tomato;
+    border-color: rgb(253, 143, 123);
     border-radius: 5px;
     background-color: #1F1D2B;
     color: white;
 }
 .img1{
-    width: 5%;
-    height: 5%;
+    width: 10%;
+    height: 10%;
 }
 .img2{
-    justify-content: flex-end ;
-    width: 5%;
-    height: 5%;
+    width: 10%;
+    height: 10%;
 }
 
 

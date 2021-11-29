@@ -1,7 +1,7 @@
 function form_validate(){
     var regex = /^[a-zA-Z]{0,14}$/;
-    let name = document.forms["animi"]["name"].value;
-    let epi = document.forms["animi"]["episodes"].value;
+    let name = document.forms["animi-forms"]["name"].value;
+    let epi = document.forms["animi-forms"]["episodes"].value;
     if (name == "")
     {
         alert("Empty");
