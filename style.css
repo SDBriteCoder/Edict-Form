@@ -1,0 +1,43 @@
+body{
+    background-color: #1F1D2B;
+    color: white;
+    font-family: roboto;
+}
+h1{
+    margin-right: 400px;
+    background-color: tomato;
+    height: 50px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align:center;
+    margin-top: 0px;
+    padding: 9px;
+}
+div{
+    margin-left: 50px;
+}
+input , select{
+    border-color: tomato;
+    width: 200%;
+    height: 50%;
+    border-radius: 5px;
+    background-color: #1F1D2B;
+    color: white;
+}
+textarea{
+    border-color: tomato;
+    border-radius: 5px;
+    background-color: #1F1D2B;
+    color: white;
+}
+.img1{
+    width: 5%;
+    height: 5%;
+}
+.img2{
+    justify-content: flex-end ;
+    width: 5%;
+    height: 5%;
+}
+
+

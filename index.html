@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animi-Form</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>   
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>
+        <img class="img1" src="logo.png" alt="BatMan Logo">
+        ANIMI-FORMS
+        <img class="img2" src="logo.png" alt="BatMan Logo">
+    </h1>
+    <div>        
+        <div style="float: left;">
+            <form name="animi" onsubmit="return form_validate()">
+                <label for = "name">ANIMI-Name</label><br>
+                <input type= "text" id="name"><br><br>
+                <label for = "country"> ANIMI-(ORIGIN COUNTRY)</label><br>
+                <select name="country" id="country">   
+                </select><br><br>
+                <label for = "episodes">No. of Episodes</label><br>
+                <input type = "text" id="episodes" oninput="this.value = this.value.replace(/[^0-9.]/g,'').replace(/(\..*?)\..*/g, '$1');" /><br><br>
+                <label for = "rating" > YOUR RATING </label><br>
+                <input type = "text" id="rating"><br><br>
+                <label for = "awards" >AWARDS</label> <br>
+                <input type = "text" id="awards"><br><br>
+        </div>
+        <div style="position: absolute; right: 30%;">
+                <label for = "description">DESCRIPTION ABOUT THE ANIMI</label><br>
+                <textarea id="description" rows="5" cols="47"></textarea><br><br>
+                <input type="submit" style="width: 40%; color: white; background-color: tomato; position: absolute; left:143px" value="Submit">
+            </form>
+        </div>
+    </div>
+    <p id="demo"></p>
+</body>
+</html>
